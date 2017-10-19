@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HTWKeyBoradViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="182"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="GA9-gs-LOB">
+                    <rect key="frame" x="2" y="2" width="371" height="178"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="bzY-i9-kh7">
+                            <rect key="frame" x="0.0" y="0.0" width="371" height="42.5"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wjk-Ds-mfX">
+                                    <rect key="frame" x="0.0" y="0.0" width="72" height="42.5"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                    <state key="normal" title="0"/>
+                                    <connections>
+                                        <action selector="doKeyBoardButton:" destination="-1" eventType="touchUpInside" id="bEx-bT-R7c"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S39-Km-TrF">
+                                    <rect key="frame" x="75" y="0.0" width="71.5" height="42.5"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                    <state key="normal" title="1"/>
+                                    <connections>
+                                        <action selector="doKeyBoardButton:" destination="-1" eventType="touchUpInside" id="5g4-jn-c7v"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HlP-cL-KXB">
+                                    <rect key="frame" x="149.5" y="0.0" width="72" height="42.5"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                    <state key="normal" title="2"/>
+                                    <connections>
+                                        <action selector="doKeyBoardButton:" destination="-1" eventType="touchUpInside" id="aI5-9v-55D"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bfe-FV-EMS">
+                                    <rect key="frame" x="224.5" y="0.0" width="71.5" height="42.5"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                    <state key="normal" title="3"/>
+                                    <connections>
+                                        <action selector="doKeyBoardButton:" destination="-1" eventType="touchUpInside" id="baM-YG-yix"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yoT-EI-LYj">
+                                    <rect key="frame" x="299" y="0.0" width="72" height="42.5"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                    <state key="normal" title="del"/>
+                                    <connections>
+                                        <action selector="doKeyBoardButton:" destination="-1" eventType="touchUpInside" id="z6f-Sd-BKa"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="S39-Km-TrF" firstAttribute="width" secondItem="Wjk-Ds-mfX" secondAttribute="width" id="55D-qR-KGA"/>
+                                <constraint firstItem="bfe-FV-EMS" firstAttribute="width" secondItem="Wjk-Ds-mfX" secondAttribute="width" id="6bt-Pv-zZS"/>
+                                <constraint firstItem="HlP-cL-KXB" firstAttribute="width" secondItem="Wjk-Ds-mfX" secondAttribute="width" id="LDD-MA-uHR"/>
+                                <constraint firstItem="yoT-EI-LYj" firstAttribute="width" secondItem="Wjk-Ds-mfX" secondAttribute="width" id="Pim-Ns-EsF"/>
+                            </constraints>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="gCR-Xm-RDr">
+                            <rect key="frame" x="0.0" y="45.5" width="371" height="42"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j8H-00-eqD">
+                                    <rect key="frame" x="0.0" y="0.0" width="72" height="42"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                    <state key="normal" title="4"/>
+                                    <connections>
+                                        <action selector="doKeyBoardButton:" destination="-1" eventType="touchUpInside" id="8ZW-7v-ZAP"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="41a-RW-53m">
+                                    <rect key="frame" x="75" y="0.0" width="71.5" height="42"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                    <state key="normal" title="5"/>
+                                    <connections>
+                                        <action selector="doKeyBoardButton:" destination="-1" eventType="touchUpInside" id="kPY-Gi-PHP"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fiF-VD-5p7">
+                                    <rect key="frame" x="149.5" y="0.0" width="72" height="42"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                    <state key="normal" title="6"/>
+                                    <connections>
+                                        <action selector="doKeyBoardButton:" destination="-1" eventType="touchUpInside" id="a2l-d3-8Xu"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XKc-qA-Yg7">
+                                    <rect key="frame" x="224.5" y="0.0" width="71.5" height="42"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                    <state key="normal" title="7"/>
+                                    <connections>
+                                        <action selector="doKeyBoardButton:" destination="-1" eventType="touchUpInside" id="MAc-oc-QiI"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="059-fK-0Aj">
+                                    <rect key="frame" x="299" y="0.0" width="72" height="42"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                    <connections>
+                                        <action selector="doKeyBoardButton:" destination="-1" eventType="touchUpInside" id="YsX-lV-c9Q"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="XKc-qA-Yg7" firstAttribute="width" secondItem="j8H-00-eqD" secondAttribute="width" id="Cz7-VT-GQj"/>
+                                <constraint firstItem="059-fK-0Aj" firstAttribute="width" secondItem="j8H-00-eqD" secondAttribute="width" id="JBf-CG-5hO"/>
+                                <constraint firstItem="41a-RW-53m" firstAttribute="width" secondItem="j8H-00-eqD" secondAttribute="width" id="Jto-4H-aIa"/>
+                                <constraint firstItem="fiF-VD-5p7" firstAttribute="width" secondItem="j8H-00-eqD" secondAttribute="width" id="b2q-gV-lcK"/>
+                            </constraints>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="Lz6-zc-Q9j">
+                            <rect key="frame" x="0.0" y="90.5" width="371" height="42.5"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l0i-sy-w2O">
+                                    <rect key="frame" x="0.0" y="0.0" width="72" height="42.5"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                    <state key="normal" title="7"/>
+                                    <connections>
+                                        <action selector="doKeyBoardButton:" destination="-1" eventType="touchUpInside" id="mdm-T3-5Rl"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fSq-rR-wNl">
+                                    <rect key="frame" x="75" y="0.0" width="71.5" height="42.5"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                    <state key="normal" title="8"/>
+                                    <connections>
+                                        <action selector="doKeyBoardButton:" destination="-1" eventType="touchUpInside" id="kJq-Wn-OAr"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M8l-hJ-3s9">
+                                    <rect key="frame" x="149.5" y="0.0" width="72" height="42.5"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                    <state key="normal" title="9"/>
+                                    <connections>
+                                        <action selector="doKeyBoardButton:" destination="-1" eventType="touchUpInside" id="Y7W-69-cuI"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EK4-Li-ypw">
+                                    <rect key="frame" x="224.5" y="0.0" width="71.5" height="42.5"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                    <state key="normal" title="A"/>
+                                    <connections>
+                                        <action selector="doKeyBoardButton:" destination="-1" eventType="touchUpInside" id="a5x-yV-Jqb"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BRG-nw-DoU">
+                                    <rect key="frame" x="299" y="0.0" width="72" height="42.5"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                    <state key="normal" title="收下"/>
+                                    <connections>
+                                        <action selector="doKeyBoardButton:" destination="-1" eventType="touchUpInside" id="486-0X-K5j"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="M8l-hJ-3s9" firstAttribute="width" secondItem="l0i-sy-w2O" secondAttribute="width" id="8R5-SJ-5RM"/>
+                                <constraint firstItem="fSq-rR-wNl" firstAttribute="width" secondItem="l0i-sy-w2O" secondAttribute="width" id="Qaj-wU-Lqv"/>
+                                <constraint firstItem="BRG-nw-DoU" firstAttribute="width" secondItem="l0i-sy-w2O" secondAttribute="width" id="dZT-ci-H4a"/>
+                                <constraint firstItem="EK4-Li-ypw" firstAttribute="width" secondItem="l0i-sy-w2O" secondAttribute="width" id="pdf-5X-nE7"/>
+                            </constraints>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="8Uu-lj-S3i">
+                            <rect key="frame" x="0.0" y="136" width="371" height="42"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4rI-4O-bNg">
+                                    <rect key="frame" x="0.0" y="0.0" width="72" height="42"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                    <state key="normal" title="B"/>
+                                    <connections>
+                                        <action selector="doKeyBoardButton:" destination="-1" eventType="touchUpInside" id="Jub-Lu-pdy"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bES-eR-vEo">
+                                    <rect key="frame" x="75" y="0.0" width="71.5" height="42"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                    <state key="normal" title="C"/>
+                                    <connections>
+                                        <action selector="doKeyBoardButton:" destination="-1" eventType="touchUpInside" id="jwo-t7-t97"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2HL-Lr-Csb">
+                                    <rect key="frame" x="149.5" y="0.0" width="72" height="42"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                    <state key="normal" title="D"/>
+                                    <connections>
+                                        <action selector="doKeyBoardButton:" destination="-1" eventType="touchUpInside" id="YTx-Lg-uxp"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uwc-Dm-4i4">
+                                    <rect key="frame" x="224.5" y="0.0" width="71.5" height="42"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                    <state key="normal" title="E"/>
+                                    <connections>
+                                        <action selector="doKeyBoardButton:" destination="-1" eventType="touchUpInside" id="Bgf-gu-Q5P"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Icn-JB-BwF">
+                                    <rect key="frame" x="299" y="0.0" width="72" height="42"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                    <state key="normal" title="F"/>
+                                    <connections>
+                                        <action selector="doKeyBoardButton:" destination="-1" eventType="touchUpInside" id="nae-9k-Pge"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="Icn-JB-BwF" firstAttribute="width" secondItem="4rI-4O-bNg" secondAttribute="width" id="RzR-PU-f2F"/>
+                                <constraint firstItem="2HL-Lr-Csb" firstAttribute="width" secondItem="4rI-4O-bNg" secondAttribute="width" id="gUg-D3-VCa"/>
+                                <constraint firstItem="bES-eR-vEo" firstAttribute="width" secondItem="4rI-4O-bNg" secondAttribute="width" id="wrk-i6-k95"/>
+                                <constraint firstItem="uwc-Dm-4i4" firstAttribute="width" secondItem="4rI-4O-bNg" secondAttribute="width" id="ztX-PS-Qv1"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="gCR-Xm-RDr" firstAttribute="height" secondItem="bzY-i9-kh7" secondAttribute="height" id="J3S-xP-c9q"/>
+                        <constraint firstItem="8Uu-lj-S3i" firstAttribute="height" secondItem="bzY-i9-kh7" secondAttribute="height" id="Sge-es-wEd"/>
+                        <constraint firstItem="Lz6-zc-Q9j" firstAttribute="height" secondItem="bzY-i9-kh7" secondAttribute="height" id="s2Q-Dj-mIB"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="GA9-gs-LOB" secondAttribute="trailing" constant="2" id="2Dk-4n-3Ls"/>
+                <constraint firstItem="GA9-gs-LOB" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="2" id="5kS-Ka-qTp"/>
+                <constraint firstItem="GA9-gs-LOB" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="2" id="Bkf-bO-Ab4"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="GA9-gs-LOB" secondAttribute="bottom" constant="2" id="yqq-XG-ulU"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="-113.5" y="154"/>
+        </view>
+    </objects>
+</document>

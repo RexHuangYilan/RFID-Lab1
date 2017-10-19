@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD1BF2D41F8682DC00984F6C /* NFCObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1BF2D31F8682DC00984F6C /* NFCObject.m */; };
+		CD2957E41F848E98002F8989 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2957E31F848E98002F8989 /* AppDelegate.m */; };
+		CD2957E71F848E98002F8989 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2957E61F848E98002F8989 /* ViewController.m */; };
+		CD2957EA1F848E98002F8989 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2957E81F848E98002F8989 /* Main.storyboard */; };
+		CD2957EC1F848E98002F8989 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD2957EB1F848E98002F8989 /* Assets.xcassets */; };
+		CD2957EF1F848E98002F8989 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2957ED1F848E98002F8989 /* LaunchScreen.storyboard */; };
+		CD2957F21F848E98002F8989 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2957F11F848E98002F8989 /* main.m */; };
+		CD2957FB1F848F30002F8989 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2957FA1F848F30002F8989 /* CoreBluetooth.framework */; };
+		CD2958411F849507002F8989 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2958231F849507002F8989 /* Card.m */; };
+		CD2958421F849507002F8989 /* CpuCard.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2958251F849507002F8989 /* CpuCard.m */; };
+		CD2958431F849507002F8989 /* DESFire.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2958271F849507002F8989 /* DESFire.m */; };
+		CD2958441F849507002F8989 /* FeliCa.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2958291F849507002F8989 /* FeliCa.m */; };
+		CD2958451F849507002F8989 /* Iso14443bCard.m in Sources */ = {isa = PBXBuildFile; fileRef = CD29582B1F849507002F8989 /* Iso14443bCard.m */; };
+		CD2958461F849507002F8989 /* Iso15693Card.m in Sources */ = {isa = PBXBuildFile; fileRef = CD29582D1F849507002F8989 /* Iso15693Card.m */; };
+		CD2958471F849507002F8989 /* Mifare.m in Sources */ = {isa = PBXBuildFile; fileRef = CD29582F1F849507002F8989 /* Mifare.m */; };
+		CD2958481F849507002F8989 /* Ntag21x.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2958311F849507002F8989 /* Ntag21x.m */; };
+		CD2958491F849507002F8989 /* Ultralight.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2958331F849507002F8989 /* Ultralight.m */; };
+		CD29584A1F849507002F8989 /* DKBleDevInitInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2958351F849507002F8989 /* DKBleDevInitInfo.m */; };
+		CD29584B1F849507002F8989 /* DKBleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2958371F849507002F8989 /* DKBleManager.m */; };
+		CD29584C1F849507002F8989 /* DKComByteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD29583A1F849507002F8989 /* DKComByteManager.m */; };
+		CD29584D1F849507002F8989 /* DKDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD29583C1F849507002F8989 /* DKDeviceManager.m */; };
+		CD29584F1F849507002F8989 /* NSData+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2958401F849507002F8989 /* NSData+Hex.m */; };
+		CDD55AC71F931033004222A6 /* HTWKeyBoradViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD55AC51F931033004222A6 /* HTWKeyBoradViewController.m */; };
+		CDD55AC81F931033004222A6 /* HTWKeyBoradViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDD55AC61F931033004222A6 /* HTWKeyBoradViewController.xib */; };
+		CDD55ACB1F9414C1004222A6 /* ViewController+PickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD55ACA1F9414C0004222A6 /* ViewController+PickerView.m */; };
+		CDD55AD01F98DC38004222A6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CDD55ACF1F98DC38004222A6 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD1BF2D21F8682DC00984F6C /* NFCObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NFCObject.h; sourceTree = "<group>"; };
+		CD1BF2D31F8682DC00984F6C /* NFCObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NFCObject.m; sourceTree = "<group>"; };
+		CD2957DF1F848E98002F8989 /* RFID_Lab1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RFID_Lab1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD2957E21F848E98002F8989 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD2957E31F848E98002F8989 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD2957E51F848E98002F8989 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD2957E61F848E98002F8989 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD2957E91F848E98002F8989 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD2957EB1F848E98002F8989 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD2957EE1F848E98002F8989 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD2957F01F848E98002F8989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD2957F11F848E98002F8989 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD2957FA1F848F30002F8989 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		CD2958221F849507002F8989 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		CD2958231F849507002F8989 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		CD2958241F849507002F8989 /* CpuCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CpuCard.h; sourceTree = "<group>"; };
+		CD2958251F849507002F8989 /* CpuCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CpuCard.m; sourceTree = "<group>"; };
+		CD2958261F849507002F8989 /* DESFire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DESFire.h; sourceTree = "<group>"; };
+		CD2958271F849507002F8989 /* DESFire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DESFire.m; sourceTree = "<group>"; };
+		CD2958281F849507002F8989 /* FeliCa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeliCa.h; sourceTree = "<group>"; };
+		CD2958291F849507002F8989 /* FeliCa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeliCa.m; sourceTree = "<group>"; };
+		CD29582A1F849507002F8989 /* Iso14443bCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Iso14443bCard.h; sourceTree = "<group>"; };
+		CD29582B1F849507002F8989 /* Iso14443bCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Iso14443bCard.m; sourceTree = "<group>"; };
+		CD29582C1F849507002F8989 /* Iso15693Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Iso15693Card.h; sourceTree = "<group>"; };
+		CD29582D1F849507002F8989 /* Iso15693Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Iso15693Card.m; sourceTree = "<group>"; };
+		CD29582E1F849507002F8989 /* Mifare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mifare.h; sourceTree = "<group>"; };
+		CD29582F1F849507002F8989 /* Mifare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mifare.m; sourceTree = "<group>"; };
+		CD2958301F849507002F8989 /* Ntag21x.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ntag21x.h; sourceTree = "<group>"; };
+		CD2958311F849507002F8989 /* Ntag21x.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ntag21x.m; sourceTree = "<group>"; };
+		CD2958321F849507002F8989 /* Ultralight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ultralight.h; sourceTree = "<group>"; };
+		CD2958331F849507002F8989 /* Ultralight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ultralight.m; sourceTree = "<group>"; };
+		CD2958341F849507002F8989 /* DKBleDevInitInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKBleDevInitInfo.h; sourceTree = "<group>"; };
+		CD2958351F849507002F8989 /* DKBleDevInitInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKBleDevInitInfo.m; sourceTree = "<group>"; };
+		CD2958361F849507002F8989 /* DKBleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKBleManager.h; sourceTree = "<group>"; };
+		CD2958371F849507002F8989 /* DKBleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKBleManager.m; sourceTree = "<group>"; };
+		CD2958381F849507002F8989 /* DKBleNfc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKBleNfc.h; sourceTree = "<group>"; };
+		CD2958391F849507002F8989 /* DKComByteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKComByteManager.h; sourceTree = "<group>"; };
+		CD29583A1F849507002F8989 /* DKComByteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKComByteManager.m; sourceTree = "<group>"; };
+		CD29583B1F849507002F8989 /* DKDeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKDeviceManager.h; sourceTree = "<group>"; };
+		CD29583C1F849507002F8989 /* DKDeviceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKDeviceManager.m; sourceTree = "<group>"; };
+		CD29583F1F849507002F8989 /* NSData+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Hex.h"; sourceTree = "<group>"; };
+		CD2958401F849507002F8989 /* NSData+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Hex.m"; sourceTree = "<group>"; };
+		CDD55AC41F931033004222A6 /* HTWKeyBoradViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTWKeyBoradViewController.h; sourceTree = "<group>"; };
+		CDD55AC51F931033004222A6 /* HTWKeyBoradViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTWKeyBoradViewController.m; sourceTree = "<group>"; };
+		CDD55AC61F931033004222A6 /* HTWKeyBoradViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HTWKeyBoradViewController.xib; sourceTree = "<group>"; };
+		CDD55AC91F9414C0004222A6 /* ViewController+PickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+PickerView.h"; sourceTree = "<group>"; };
+		CDD55ACA1F9414C0004222A6 /* ViewController+PickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ViewController+PickerView.m"; sourceTree = "<group>"; };
+		CDD55ACF1F98DC38004222A6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD2957DC1F848E98002F8989 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD2957FB1F848F30002F8989 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD1BF2CE1F8677E100984F6C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		CD2957D61F848E98002F8989 = {
+			isa = PBXGroup;
+			children = (
+				CDD55ACF1F98DC38004222A6 /* README.md */,
+				CD2957E11F848E98002F8989 /* RFID_Lab1 */,
+				CD2957E01F848E98002F8989 /* Products */,
+				CD2957F91F848F2F002F8989 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD2957E01F848E98002F8989 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD2957DF1F848E98002F8989 /* RFID_Lab1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD2957E11F848E98002F8989 /* RFID_Lab1 */ = {
+			isa = PBXGroup;
+			children = (
+				CD1BF2CE1F8677E100984F6C /* Category */,
+				CD2958201F849507002F8989 /* bleNfc */,
+				CD2957EB1F848E98002F8989 /* Assets.xcassets */,
+				CD2957ED1F848E98002F8989 /* LaunchScreen.storyboard */,
+				CD2957F01F848E98002F8989 /* Info.plist */,
+				CD2957F11F848E98002F8989 /* main.m */,
+				CD2957E21F848E98002F8989 /* AppDelegate.h */,
+				CD2957E31F848E98002F8989 /* AppDelegate.m */,
+				CD2957E51F848E98002F8989 /* ViewController.h */,
+				CD2957E61F848E98002F8989 /* ViewController.m */,
+				CDD55AC91F9414C0004222A6 /* ViewController+PickerView.h */,
+				CDD55ACA1F9414C0004222A6 /* ViewController+PickerView.m */,
+				CDD55AC41F931033004222A6 /* HTWKeyBoradViewController.h */,
+				CDD55AC51F931033004222A6 /* HTWKeyBoradViewController.m */,
+				CDD55AC61F931033004222A6 /* HTWKeyBoradViewController.xib */,
+				CD1BF2D21F8682DC00984F6C /* NFCObject.h */,
+				CD1BF2D31F8682DC00984F6C /* NFCObject.m */,
+				CD2957E81F848E98002F8989 /* Main.storyboard */,
+			);
+			path = RFID_Lab1;
+			sourceTree = "<group>";
+		};
+		CD2957F91F848F2F002F8989 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD2957FA1F848F30002F8989 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD2958201F849507002F8989 /* bleNfc */ = {
+			isa = PBXGroup;
+			children = (
+				CD2958211F849507002F8989 /* card */,
+				CD2958341F849507002F8989 /* DKBleDevInitInfo.h */,
+				CD2958351F849507002F8989 /* DKBleDevInitInfo.m */,
+				CD2958361F849507002F8989 /* DKBleManager.h */,
+				CD2958371F849507002F8989 /* DKBleManager.m */,
+				CD2958381F849507002F8989 /* DKBleNfc.h */,
+				CD2958391F849507002F8989 /* DKComByteManager.h */,
+				CD29583A1F849507002F8989 /* DKComByteManager.m */,
+				CD29583B1F849507002F8989 /* DKDeviceManager.h */,
+				CD29583C1F849507002F8989 /* DKDeviceManager.m */,
+				CD29583F1F849507002F8989 /* NSData+Hex.h */,
+				CD2958401F849507002F8989 /* NSData+Hex.m */,
+			);
+			path = bleNfc;
+			sourceTree = "<group>";
+		};
+		CD2958211F849507002F8989 /* card */ = {
+			isa = PBXGroup;
+			children = (
+				CD2958221F849507002F8989 /* Card.h */,
+				CD2958231F849507002F8989 /* Card.m */,
+				CD2958241F849507002F8989 /* CpuCard.h */,
+				CD2958251F849507002F8989 /* CpuCard.m */,
+				CD2958261F849507002F8989 /* DESFire.h */,
+				CD2958271F849507002F8989 /* DESFire.m */,
+				CD2958281F849507002F8989 /* FeliCa.h */,
+				CD2958291F849507002F8989 /* FeliCa.m */,
+				CD29582A1F849507002F8989 /* Iso14443bCard.h */,
+				CD29582B1F849507002F8989 /* Iso14443bCard.m */,
+				CD29582C1F849507002F8989 /* Iso15693Card.h */,
+				CD29582D1F849507002F8989 /* Iso15693Card.m */,
+				CD29582E1F849507002F8989 /* Mifare.h */,
+				CD29582F1F849507002F8989 /* Mifare.m */,
+				CD2958301F849507002F8989 /* Ntag21x.h */,
+				CD2958311F849507002F8989 /* Ntag21x.m */,
+				CD2958321F849507002F8989 /* Ultralight.h */,
+				CD2958331F849507002F8989 /* Ultralight.m */,
+			);
+			path = card;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD2957DE1F848E98002F8989 /* RFID_Lab1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD2957F51F848E98002F8989 /* Build configuration list for PBXNativeTarget "RFID_Lab1" */;
+			buildPhases = (
+				CD2957DB1F848E98002F8989 /* Sources */,
+				CD2957DC1F848E98002F8989 /* Frameworks */,
+				CD2957DD1F848E98002F8989 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RFID_Lab1;
+			productName = RFID_Lab1;
+			productReference = CD2957DF1F848E98002F8989 /* RFID_Lab1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD2957D71F848E98002F8989 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Rex;
+				TargetAttributes = {
+					CD2957DE1F848E98002F8989 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CD2957DA1F848E98002F8989 /* Build configuration list for PBXProject "RFID_Lab1" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD2957D61F848E98002F8989;
+			productRefGroup = CD2957E01F848E98002F8989 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD2957DE1F848E98002F8989 /* RFID_Lab1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD2957DD1F848E98002F8989 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD2957EF1F848E98002F8989 /* LaunchScreen.storyboard in Resources */,
+				CDD55AC81F931033004222A6 /* HTWKeyBoradViewController.xib in Resources */,
+				CDD55AD01F98DC38004222A6 /* README.md in Resources */,
+				CD2957EC1F848E98002F8989 /* Assets.xcassets in Resources */,
+				CD2957EA1F848E98002F8989 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD2957DB1F848E98002F8989 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD29584F1F849507002F8989 /* NSData+Hex.m in Sources */,
+				CD2958431F849507002F8989 /* DESFire.m in Sources */,
+				CD2958451F849507002F8989 /* Iso14443bCard.m in Sources */,
+				CD2958481F849507002F8989 /* Ntag21x.m in Sources */,
+				CD2958421F849507002F8989 /* CpuCard.m in Sources */,
+				CD29584A1F849507002F8989 /* DKBleDevInitInfo.m in Sources */,
+				CD29584C1F849507002F8989 /* DKComByteManager.m in Sources */,
+				CD29584D1F849507002F8989 /* DKDeviceManager.m in Sources */,
+				CD2958471F849507002F8989 /* Mifare.m in Sources */,
+				CD2958461F849507002F8989 /* Iso15693Card.m in Sources */,
+				CD2957E71F848E98002F8989 /* ViewController.m in Sources */,
+				CD2958491F849507002F8989 /* Ultralight.m in Sources */,
+				CD1BF2D41F8682DC00984F6C /* NFCObject.m in Sources */,
+				CDD55ACB1F9414C1004222A6 /* ViewController+PickerView.m in Sources */,
+				CD2958441F849507002F8989 /* FeliCa.m in Sources */,
+				CD2957F21F848E98002F8989 /* main.m in Sources */,
+				CD2957E41F848E98002F8989 /* AppDelegate.m in Sources */,
+				CD29584B1F849507002F8989 /* DKBleManager.m in Sources */,
+				CD2958411F849507002F8989 /* Card.m in Sources */,
+				CDD55AC71F931033004222A6 /* HTWKeyBoradViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD2957E81F848E98002F8989 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD2957E91F848E98002F8989 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD2957ED1F848E98002F8989 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD2957EE1F848E98002F8989 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD2957F31F848E98002F8989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD2957F41F848E98002F8989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD2957F61F848E98002F8989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 429PR6S72V;
+				INFOPLIST_FILE = RFID_Lab1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.etmall.ble.RFID-Lab1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD2957F71F848E98002F8989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 429PR6S72V;
+				INFOPLIST_FILE = RFID_Lab1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.etmall.ble.RFID-Lab1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD2957DA1F848E98002F8989 /* Build configuration list for PBXProject "RFID_Lab1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD2957F31F848E98002F8989 /* Debug */,
+				CD2957F41F848E98002F8989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD2957F51F848E98002F8989 /* Build configuration list for PBXNativeTarget "RFID_Lab1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD2957F61F848E98002F8989 /* Debug */,
+				CD2957F71F848E98002F8989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD2957D71F848E98002F8989 /* Project object */;
+}
