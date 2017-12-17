@@ -29,6 +29,16 @@
 		CD29584C1F849507002F8989 /* DKComByteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD29583A1F849507002F8989 /* DKComByteManager.m */; };
 		CD29584D1F849507002F8989 /* DKDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD29583C1F849507002F8989 /* DKDeviceManager.m */; };
 		CD29584F1F849507002F8989 /* NSData+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2958401F849507002F8989 /* NSData+Hex.m */; };
+		CD6C83771FDBCB5A001B5B6E /* NSString+Convert.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6C83761FDBCB5A001B5B6E /* NSString+Convert.m */; };
+		CD6C83831FDBF888001B5B6E /* UIViewController+BaseControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6C83821FDBF888001B5B6E /* UIViewController+BaseControl.m */; };
+		CD6C838B1FDC0E56001B5B6E /* Lab2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6C83871FDC0E55001B5B6E /* Lab2ViewController.m */; };
+		CD6C838C1FDC0E56001B5B6E /* ConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6C838A1FDC0E56001B5B6E /* ConnectViewController.m */; };
+		CD6C839F1FDC0ECE001B5B6E /* Lab2InterFaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6C839A1FDC0ECE001B5B6E /* Lab2InterFaceController.m */; };
+		CD6C83A01FDC0ECE001B5B6E /* WalletObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6C839B1FDC0ECE001B5B6E /* WalletObject.m */; };
+		CD6C83A11FDC0ECE001B5B6E /* NFCDeviceInfoObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6C839D1FDC0ECE001B5B6E /* NFCDeviceInfoObject.m */; };
+		CD6C83A41FDC0F74001B5B6E /* NFCBlueToothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6C83A31FDC0F74001B5B6E /* NFCBlueToothManager.m */; };
+		CD6C83A71FDD150A001B5B6E /* NSError+NFC.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6C83A61FDD150A001B5B6E /* NSError+NFC.m */; };
+		CD6C83AA1FDD6F7D001B5B6E /* NSData+Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6C83A91FDD6F7D001B5B6E /* NSData+Operation.m */; };
 		CDD55AC71F931033004222A6 /* HTWKeyBoradViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD55AC51F931033004222A6 /* HTWKeyBoradViewController.m */; };
 		CDD55AC81F931033004222A6 /* HTWKeyBoradViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDD55AC61F931033004222A6 /* HTWKeyBoradViewController.xib */; };
 		CDD55ACB1F9414C1004222A6 /* ViewController+PickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD55ACA1F9414C0004222A6 /* ViewController+PickerView.m */; };
@@ -78,6 +88,26 @@
 		CD29583C1F849507002F8989 /* DKDeviceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKDeviceManager.m; sourceTree = "<group>"; };
 		CD29583F1F849507002F8989 /* NSData+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Hex.h"; sourceTree = "<group>"; };
 		CD2958401F849507002F8989 /* NSData+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Hex.m"; sourceTree = "<group>"; };
+		CD6C83751FDBCB5A001B5B6E /* NSString+Convert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Convert.h"; sourceTree = "<group>"; };
+		CD6C83761FDBCB5A001B5B6E /* NSString+Convert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Convert.m"; sourceTree = "<group>"; };
+		CD6C83811FDBF888001B5B6E /* UIViewController+BaseControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BaseControl.h"; sourceTree = "<group>"; };
+		CD6C83821FDBF888001B5B6E /* UIViewController+BaseControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BaseControl.m"; sourceTree = "<group>"; };
+		CD6C83871FDC0E55001B5B6E /* Lab2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lab2ViewController.m; sourceTree = "<group>"; };
+		CD6C83881FDC0E56001B5B6E /* ConnectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectViewController.h; sourceTree = "<group>"; };
+		CD6C83891FDC0E56001B5B6E /* Lab2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lab2ViewController.h; sourceTree = "<group>"; };
+		CD6C838A1FDC0E56001B5B6E /* ConnectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectViewController.m; sourceTree = "<group>"; };
+		CD6C83991FDC0ECE001B5B6E /* WalletObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WalletObject.h; sourceTree = "<group>"; };
+		CD6C839A1FDC0ECE001B5B6E /* Lab2InterFaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lab2InterFaceController.m; sourceTree = "<group>"; };
+		CD6C839B1FDC0ECE001B5B6E /* WalletObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WalletObject.m; sourceTree = "<group>"; };
+		CD6C839C1FDC0ECE001B5B6E /* Lab2InterFaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lab2InterFaceController.h; sourceTree = "<group>"; };
+		CD6C839D1FDC0ECE001B5B6E /* NFCDeviceInfoObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NFCDeviceInfoObject.m; sourceTree = "<group>"; };
+		CD6C839E1FDC0ECE001B5B6E /* NFCDeviceInfoObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFCDeviceInfoObject.h; sourceTree = "<group>"; };
+		CD6C83A21FDC0F74001B5B6E /* NFCBlueToothManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NFCBlueToothManager.h; sourceTree = "<group>"; };
+		CD6C83A31FDC0F74001B5B6E /* NFCBlueToothManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NFCBlueToothManager.m; sourceTree = "<group>"; };
+		CD6C83A51FDD150A001B5B6E /* NSError+NFC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSError+NFC.h"; sourceTree = "<group>"; };
+		CD6C83A61FDD150A001B5B6E /* NSError+NFC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSError+NFC.m"; sourceTree = "<group>"; };
+		CD6C83A81FDD6F7D001B5B6E /* NSData+Operation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+Operation.h"; sourceTree = "<group>"; };
+		CD6C83A91FDD6F7D001B5B6E /* NSData+Operation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+Operation.m"; sourceTree = "<group>"; };
 		CDD55AC41F931033004222A6 /* HTWKeyBoradViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTWKeyBoradViewController.h; sourceTree = "<group>"; };
 		CDD55AC51F931033004222A6 /* HTWKeyBoradViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTWKeyBoradViewController.m; sourceTree = "<group>"; };
 		CDD55AC61F931033004222A6 /* HTWKeyBoradViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HTWKeyBoradViewController.xib; sourceTree = "<group>"; };
@@ -101,6 +131,14 @@
 		CD1BF2CE1F8677E100984F6C /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				CD6C83751FDBCB5A001B5B6E /* NSString+Convert.h */,
+				CD6C83761FDBCB5A001B5B6E /* NSString+Convert.m */,
+				CD6C83811FDBF888001B5B6E /* UIViewController+BaseControl.h */,
+				CD6C83821FDBF888001B5B6E /* UIViewController+BaseControl.m */,
+				CD6C83A51FDD150A001B5B6E /* NSError+NFC.h */,
+				CD6C83A61FDD150A001B5B6E /* NSError+NFC.m */,
+				CD6C83A81FDD6F7D001B5B6E /* NSData+Operation.h */,
+				CD6C83A91FDD6F7D001B5B6E /* NSData+Operation.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -126,6 +164,7 @@
 		CD2957E11F848E98002F8989 /* RFID_Lab1 */ = {
 			isa = PBXGroup;
 			children = (
+				CD6C83671FD4B5D0001B5B6E /* Lab2 */,
 				CD1BF2CE1F8677E100984F6C /* Category */,
 				CD2958201F849507002F8989 /* bleNfc */,
 				CD2957EB1F848E98002F8989 /* Assets.xcassets */,
@@ -198,6 +237,33 @@
 				CD2958331F849507002F8989 /* Ultralight.m */,
 			);
 			path = card;
+			sourceTree = "<group>";
+		};
+		CD6C83671FD4B5D0001B5B6E /* Lab2 */ = {
+			isa = PBXGroup;
+			children = (
+				CD6C83881FDC0E56001B5B6E /* ConnectViewController.h */,
+				CD6C838A1FDC0E56001B5B6E /* ConnectViewController.m */,
+				CD6C83891FDC0E56001B5B6E /* Lab2ViewController.h */,
+				CD6C83871FDC0E55001B5B6E /* Lab2ViewController.m */,
+				CD6C836B1FD4B6BB001B5B6E /* Model */,
+			);
+			path = Lab2;
+			sourceTree = "<group>";
+		};
+		CD6C836B1FD4B6BB001B5B6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD6C839C1FDC0ECE001B5B6E /* Lab2InterFaceController.h */,
+				CD6C839A1FDC0ECE001B5B6E /* Lab2InterFaceController.m */,
+				CD6C839E1FDC0ECE001B5B6E /* NFCDeviceInfoObject.h */,
+				CD6C839D1FDC0ECE001B5B6E /* NFCDeviceInfoObject.m */,
+				CD6C83991FDC0ECE001B5B6E /* WalletObject.h */,
+				CD6C839B1FDC0ECE001B5B6E /* WalletObject.m */,
+				CD6C83A21FDC0F74001B5B6E /* NFCBlueToothManager.h */,
+				CD6C83A31FDC0F74001B5B6E /* NFCBlueToothManager.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,22 +342,32 @@
 				CD29584F1F849507002F8989 /* NSData+Hex.m in Sources */,
 				CD2958431F849507002F8989 /* DESFire.m in Sources */,
 				CD2958451F849507002F8989 /* Iso14443bCard.m in Sources */,
+				CD6C83A01FDC0ECE001B5B6E /* WalletObject.m in Sources */,
 				CD2958481F849507002F8989 /* Ntag21x.m in Sources */,
 				CD2958421F849507002F8989 /* CpuCard.m in Sources */,
 				CD29584A1F849507002F8989 /* DKBleDevInitInfo.m in Sources */,
 				CD29584C1F849507002F8989 /* DKComByteManager.m in Sources */,
 				CD29584D1F849507002F8989 /* DKDeviceManager.m in Sources */,
+				CD6C839F1FDC0ECE001B5B6E /* Lab2InterFaceController.m in Sources */,
 				CD2958471F849507002F8989 /* Mifare.m in Sources */,
 				CD2958461F849507002F8989 /* Iso15693Card.m in Sources */,
+				CD6C83A41FDC0F74001B5B6E /* NFCBlueToothManager.m in Sources */,
 				CD2957E71F848E98002F8989 /* ViewController.m in Sources */,
 				CD2958491F849507002F8989 /* Ultralight.m in Sources */,
 				CD1BF2D41F8682DC00984F6C /* NFCObject.m in Sources */,
 				CDD55ACB1F9414C1004222A6 /* ViewController+PickerView.m in Sources */,
+				CD6C83A11FDC0ECE001B5B6E /* NFCDeviceInfoObject.m in Sources */,
 				CD2958441F849507002F8989 /* FeliCa.m in Sources */,
 				CD2957F21F848E98002F8989 /* main.m in Sources */,
+				CD6C83AA1FDD6F7D001B5B6E /* NSData+Operation.m in Sources */,
 				CD2957E41F848E98002F8989 /* AppDelegate.m in Sources */,
 				CD29584B1F849507002F8989 /* DKBleManager.m in Sources */,
+				CD6C83771FDBCB5A001B5B6E /* NSString+Convert.m in Sources */,
+				CD6C83A71FDD150A001B5B6E /* NSError+NFC.m in Sources */,
+				CD6C838C1FDC0E56001B5B6E /* ConnectViewController.m in Sources */,
+				CD6C838B1FDC0E56001B5B6E /* Lab2ViewController.m in Sources */,
 				CD2958411F849507002F8989 /* Card.m in Sources */,
+				CD6C83831FDBF888001B5B6E /* UIViewController+BaseControl.m in Sources */,
 				CDD55AC71F931033004222A6 /* HTWKeyBoradViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
