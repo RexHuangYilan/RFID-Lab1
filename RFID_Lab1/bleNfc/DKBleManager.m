@@ -92,7 +92,9 @@ static onWriteSuccessListener onWriteSuccessListenerBlock = nil;
     }
     scanFlag = YES;
     [peripherals removeAllObjects];
-    [self.manager scanForPeripheralsWithServices:nil options:nil];
+    if (self.manager.state == CBCentralManagerStatePoweredOn) {
+        [self.manager scanForPeripheralsWithServices:nil options:nil];
+    }
 }
 -(void)startScanWithCallbackBlock:(onScannerCallbackListener)block {
     onScannerCallbackListenerBlock = block;
@@ -235,6 +237,9 @@ static onWriteSuccessListener onWriteSuccessListenerBlock = nil;
         {
             //pendingInit = NO;
             //[self startToGetDeviceList];
+            if (scanFlag) {
+                [self.manager scanForPeripheralsWithServices:nil options:nil];
+            }
         }
             break;
         case CBCentralManagerStatePoweredOff://蓝牙关闭

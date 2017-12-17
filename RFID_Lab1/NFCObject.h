@@ -13,12 +13,14 @@ typedef NS_ENUM(NSUInteger, NFCKeyAB) {
     NFCKeyABB,
 };
 
-@interface NFCObject : NSObject
+@interface NFCObject : NSObject<NSCopying>
 
 @property(nonatomic) NSInteger sector;
 @property(nonatomic) NSInteger block;
 @property(nonatomic) NFCKeyAB keyAB;
 @property(nonatomic,strong) NSString *key;
+@property(nonatomic,strong) NSData *data;
+
 -(NSData *)keyData;
 -(NSInteger)authenticate;
 

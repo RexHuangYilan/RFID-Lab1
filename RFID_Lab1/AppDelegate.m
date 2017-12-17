@@ -22,7 +22,7 @@
 
 - (BOOL)application:(UIApplication *)application shouldAllowExtensionPointIdentifier:(UIApplicationExtensionPointIdentifier)extensionPointIdentifier
 {
-    return NO;
+    return YES;
 }
 
 @end
